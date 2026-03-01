@@ -2,10 +2,10 @@ name: algamish_app
 description: Portal Algamish Elite Pro
 version: 1.0.0+1
 
-environment:
+ environment:
   sdk: ">=3.0.0 <4.0.0"
 
-dependencies:
+ dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^2.24.2
