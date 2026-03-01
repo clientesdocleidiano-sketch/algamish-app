@@ -11,8 +11,7 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-      - run: flutter clean
-      - run: flutter build web --release
+      - run: flutter build web --release --no-tree-shake-icons
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
